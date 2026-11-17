@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#726c67"/><stop offset="1" stop-color="#e6b892"/></linearGradient>
+<linearGradient id="front" x2=".2" y2="1"><stop stop-color="#978678"/><stop offset="1" stop-color="#50483e"/></linearGradient>
+<linearGradient id="glass" x2=".4" y2="1"><stop stop-color="#809291"/><stop offset=".37" stop-color="#2a3f40"/><stop offset=".65" stop-color="#5a665e"/><stop offset="1" stop-color="#1c2626"/></linearGradient>
+<linearGradient id="side" x2="0" y2="1"><stop stop-color="#675445"/><stop offset="1" stop-color="#302720"/></linearGradient>
+<pattern id="glassLines" width="32" height="90" patternUnits="userSpaceOnUse"><path d="M0 0v90M0 20h32" stroke="#b7a595" opacity=".51"/></pattern>
+<pattern id="concrete" width="54" height="45" patternUnits="userSpaceOnUse"><path d="M0 0v45M0 0h54" fill="none" stroke="#c0a48d" stroke-opacity=".5"/><circle cx="9" cy="9" r="1" fill="#422c1e" opacity=".6"/></pattern>
+<filter id="texture"><feTurbulence type="fractalNoise" baseFrequency=".32" numOctaves="3" stitchTiles="stitch"/></filter>
+</defs>
+<path fill="url(#sky)" d="M0 0h1100v650H0z"/><path d="M0 175 430 185 640 162 1100 218M0 131 295 141 490 122 850 126" fill="none" stroke="#f6c6a0" opacity=".28" stroke-width="10"/>
+<path d="M0 556 1100 515v135H0z" fill="#3e3930"/>
+<path d="m400 650 700-98m-479 98 479-60m-261 60 261-28" stroke="#8b7b63" fill="none" opacity=".75"/>
+<path d="m415 222 314-139 303 112-301 136z" fill="#b2a092"/>
+<path d="m415 222 316 109v259l-316-44z" fill="url(#side)"/>
+<path d="m731 331 301-136v331l-301 64z" fill="url(#front)"/><path d="m731 331 301-136v331l-301 64z" fill="url(#concrete)"/>
+<path d="m444 249 220 73v169l-220-41z" fill="url(#glass)"/><path d="m444 249 220 73v169l-220-41z" fill="url(#glassLines)"/>
+<path d="m754 338 238-101v67l-238 88zM754 419l238-77v68l-238 63zM754 500l238-53v54l-238 52z" fill="url(#glass)"/><path d="m754 338 238-101v67l-238 88zM754 419l238-77v68l-238 63zM754 500l238-53v54l-238 52z" fill="url(#glassLines)"/>
+<path d="m481 262 154 51v7l-154-50zM769 336l206-88v7l-206 88zM762 426l224-74v5l-224 75z" fill="#d8bc9c" opacity=".71"/>
+<path d="m359 429 253-106 174 61-255 83z" fill="#c1af97"/>
+<path d="m359 429 172 38v129l-172-20z" fill="#493d31"/><path d="m531 467 255-83v162l-255 50z" fill="#938370"/><path d="m531 467 255-83v162l-255 50z" fill="url(#concrete)"/>
+<path d="m550 489 219-67v98l-219 50z" fill="url(#glass)"/><path d="m550 489 219-67v98l-219 50z" fill="url(#glassLines)"/>
+<path d="m366 449 149 34v84l-149-17z" fill="#241f1b"/><path d="m378 455 123 28v74l-123-17z" fill="url(#glass)"/><path d="m378 455 123 28v74l-123-17z" fill="url(#glassLines)"/>
+<path d="m490 592 304-51 15 10-303 57zm16 16 303-57 14 11-300 59z" fill="#77685b"/>
+<path d="M1035 478v83m-30-27q-25-55 14-60 10-41 31-7 37 4 14 47-15 26-59 20zm49-10q7-39 41-21 16 21 5 40l-53 6z" fill="#394137" stroke="#514637" stroke-width="4"/>
+<path d="M0 0h1100v650H0z" filter="url(#texture)" opacity=".13" style="mix-blend-mode:soft-light"/>
+</svg>
